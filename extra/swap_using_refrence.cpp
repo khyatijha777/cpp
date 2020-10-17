@@ -4,7 +4,7 @@ void sort(int &a, int &b)
 {
   int temp = a;
   a = b;
-  b = a;
+  b = temp;
 }
 int main()
 {
